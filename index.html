@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda</title>
+<link href="Tienda.css" rel="stylesheet" type="text/css">
+<body background="https://i.postimg.cc/bYF0HWC8/fondo-pared-madera-negra-38607-401.jpg">
+<div id="table border">
+     
+ <table border= "4">
+    <tr>
+    <td> 
+        <center>
+            
+ <a href="https://doritosbyagustinmiranda.000webhostapp.com/" class="active"><img src="https://i.postimg.cc/BQp7QgYf/logo-casa.png"style="width:40px;height:40px;"hspace="10"</td><a href="#Informacion Nutricional"><img src="https://i.postimg.cc/TYhfrCyf/icons8-comida-de-la-calle-64.png"style="width:40px;height:40px"hspace="8"></a> <a href="#Sabores"><img src="https://i.postimg.cc/RF04NY9N/icons8-guacamole-50-1.png"style="width:40px;height:40px"hspace="8"></a><a href="#Contacto"><img src="https://i.postimg.cc/05wLxFJ6/redes.png"style="width:35px;height:35px"hspace="10"></a>
+<a href="http://localhost/Doritos%20by%20Agustin%20Miranda/1.html" class="active">
+<img src="https://i.postimg.cc/66Vs4FmX/carro-de-la-compra.png"style="width: 40px;height: 35px;"</td></a>
+</div>
+</table> 
+</head>
+<body>
+
+
+<center>
+<br>
+
+<h2 id="visor_imagenes">Tienda</h2>
+ </center>
+
+<h2 style="position: absolute;
+  left: 410px;
+  top: 190px;
+  width:240px;
+  height:200px;
+  text-align: center;
+  background-color:skyblue;
+  border:1px solid #f6f6f6;
+  border-radius:5px;
+  border-width:10px;">
+<form action="conexion_tienda.php" id="form_tienda" method="post">
+
+Nombre:
+ <br>
+    <input type="text" name="nombre" size="20"
+ style="border:1px;
+  border-color: black;
+  width: 150px;
+  position: relative;
+  border-radius: 10px;
+ border-width: 5px; 
+ border:5px solid grey;
+;
+">
+    <br>
+    <br>
+
+    Direccion:
+     <br>
+
+    <input type="text" name="direccion" size="20"style="border:1px;
+  border-color: black;
+  width: 150px;
+  position: relative;
+  border-radius: 10px;
+ border-width: 5px; 
+ border:5px solid grey;
+;
+"></h2>
+  <h4 id="visor_imagenes2" style="position: absolute; top: 480px;" > Doritos BBQ
+    <img src="https://i.postimg.cc/tRfYhDDK/bbq-thumbnail.png" style="width: 120px; height: 140px; position: absolute; left: 15px; top: 40px;" >
+    <input type="checkbox" name="DoritosBBQ">
+  
+   
+   <h4 style="position: absolute; top: 688px; left: 50px;"> Cantidad:</h4>
+   
+     <br>
+    <input type="text" name="cantbbq" size="3" style="position: absolute; top:740px; left: 62px;border-color: black;
+ position: absolute;
+  border-radius: 10px;
+ border-width: 5px; 
+ border:5px solid grey;">
+    <br>
+</h4>
+    
+
+   <h4 id="visor_imagenes3"style="position: absolute; top: 480px;" > TEXMEX:
+
+    <img src="https://i.postimg.cc/0yGj1vxv/doritos-tex-mex-600x568-3d-new.png" style="width: 120px; height: 140px; position: absolute; left: 15px; top: 40px;" >
+    <input type="checkbox" name="DoritosTexmex">
+
+  <p style="position: absolute; top: 180px; left: 37px; ">Cantidad:</p>
+ 
+     <br>
+    <input type="text" name="canttexmex" size="3"style="position: absolute; top:228px; left: 52px; border-color: black;
+ position: absolute;
+  border-radius: 10px;
+ border-width: 5px; 
+ border:5px solid grey;">
+    <br>
+</h4>
+    
+
+
+   <h4 id="visor_imagenes4"style="position: absolute; top: 480px;" >  CHILI:
+    <img src="https://i.postimg.cc/FHXz6RMG/doritos-chilli-600x568-3d-new.png" style="width: 120px; height: 140px; position: absolute; left: 15px; top: 40px;" >
+    <input type="checkbox" name="DoritosChili">
+     
+    <p style="position: absolute; top: 180px; left: 37px; ">Cantidad:</p>
+     <br>
+    <input type="text" name="cantchili" size="3"style="position: absolute; top:228px; left: 52px;border-color: black;
+ position: absolute;
+  border-radius: 10px;
+ border-width: 5px; 
+ border:5px solid grey;">
+    <br>
+      </h4>
+
+  <h4 id="visor_imagenes5"style="position: absolute; top: 480px;" >  Dippas:
+   <br>
+<img src="https://i.postimg.cc/TYDhQm4p/dippas-original-600x568.png" style="width: 140px; height: 140px; position: absolute; left: 15px; top: 40px;" >
+<input type="checkbox" name="DoritosDippas" style="position: absolute; top: 3px; left:110px;" >
+
+
+
+<p style="position: absolute; top: 180px; left: 37px; ">Cantidad:</p>
+<br>
+<input type="text" name="cantdippas" size="3" style="position: absolute; top:228px; left: 52px;border-color: black;
+ position: absolute;
+  border-radius: 10px;
+ border-width: 5px; 
+ border:5px solid grey;" >
+<br>
+<br>
+
+    <input type="submit" value="Enviar pedido" style="position: absolute; top: 310px; width: 110px; left: -409px;" >
+ <input type="button" value="Reset" onclick="limpiarFormulario(); " 
+ style="border:1px;
+ border-color: black;
+  width: 90px;
+  position: absolute;
+ 
+border-radius: 10px;
+ border-width: 5px; 
+ border:5px solid grey;
+
+top: 350px;
+left: -399px;
+opacity: 80%;">
+
+     <script>
+  function limpiarFormulario() {
+    document.getElementById("form_tienda").reset();
+  }
+</script>
+ 
+ </h4>
+</form>
+
+  
+</body>
+</html>
